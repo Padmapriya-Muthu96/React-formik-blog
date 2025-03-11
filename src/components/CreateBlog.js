@@ -10,7 +10,7 @@ import { useNavigate } from 'react-router-dom';
 
 function CreateBlog() {
   let [count,setCount]=useState(0)
-  const totalCount = 400;
+  const totalCount = 4000;
   let navigate = useNavigate()
   let createBlog = async (data)=>{
     try {
