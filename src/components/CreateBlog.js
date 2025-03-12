@@ -37,7 +37,7 @@ function CreateBlog() {
       description:Yup.string().min(100,'Min 100 Characters Expected').max(totalCount,'Too Long').required('Required')
     }),
     onSubmit:values=>{
-      values.active_flag = false
+      values.active_flag = true
       createBlog(values)
     }
   })
